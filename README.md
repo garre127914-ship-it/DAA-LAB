@@ -1,36 +1,24 @@
-PRACTICAL 1:
+PRATICAL 01
 
-Summary :
+SUMMARY: algorithms: Bubble Sort, Selection Sort, Insertion Sort, Merge Sort, and Quick Sort. The program generates an array of 100 random integers, sorts the array using each algorithm, and measures the execution time in microseconds using Python's time.perform_counter() function. The recorded execution times show that Quick Sort is the fastest, followed by Merge Sort and Insertion Sort, while Bubble Sort is the slowest.
 
-This practical was used to implement and analyze five sorting algorithms: Bubble Sort, Selection Sort, Insertion Sort, Merge Sort, and Quick Sort. Each algorithm sorts the elements in ascending order, but their working methods and execution times are different.
+CONCLUSION: This practical demonstrates the differences in efficiency among various sorting algorithms. The results indicate that Quick Sort provides the best performance for the given dataset, while Merge Sort also performs efficiently. Bubble Sort and Selection Sort take more time because of their higher time complexity. Therefore, advanced sorting algorithms such as Quick Sort and Merge Sort are more suitable for handling large datasets, whereas simpler algorithms like Bubble Sort and Selection Sort are mainly useful for learning and small datasets.
 
-Bubble Sort repeatedly compares and swaps adjacent elements.(Best Case: O(n)Average Case: O(n²)Worst Case: O(n²))
+PRATICAL 02
 
-Selection Sort finds the smallest element and places it in the correct position.(Best Case: O(n²)Average Case: O(n²)Worst Case: O(n²))
+SUMMARY: This practical implements and compares the performance of Linear Search and Binary Search algorithms. A sorted array of 100,000 elements is created, and both algorithms are used to search for a user-specified element.
 
-Insertion Sort inserts each element into its proper place in the sorted part of the array.(Best Case: O(n) Average Case: O(n²)Worst Case: O(n²))
+CONCLUSION : The experiment demonstrates that Binary Search is much more efficient than Linear Search for searching in a sorted array. Linear Search has a time complexity of O(n), whereas Binary Search has a time complexity of O(log n). The measured execution times confirm that Binary Search requires considerably less time to locate an element, especially as the dataset size increases. Therefore, Binary Search is the preferred algorithm for searching in large sorted datasets, while Linear Search is suitable for small or unsorted collections.
 
-Merge Sort divides the array into smaller parts, sorts them, and merges them.(Best Case: O(n log n) Average Case: O(n log n)Worst Case: O(n log n))
+PRATICAL 03
 
-Quick Sort selects a pivot element and partitions the array into smaller subarrays.(Best Case: O(n log n) Average Case: O(n log n)Worst Case: O(n²))
+SUMMARY: The practical implements Heap Sort using a Max Heap. The program first creates an array of random integers based on the user-specified size. It then builds a Max Heap using the max_heapify() function and repeatedly moves the largest element to the end of the array. Finally, the array is displayed in ascending order.
 
-Conclusion :
+CONCLUSION: The experiment demonstrates that Heap Sort is an efficient comparison-based sorting algorithm. It uses a Max Heap to repeatedly select the largest element and place it in its correct position. Heap Sort has a time complexity of O(n log n) in the best, average, and worst cases, making it suitable for sorting large datasets.
 
-From this practical, we learned that every sorting algorithm has its own advantages and disadvantages. Bubble Sort, Selection Sort, and Insertion Sort are simple but slower for large datasets. Merge Sort and Quick Sort are faster and more efficient for large datasets. We also understood that choosing the right sorting algorithm depends on the size of the data and the application requirements.
+PRATICAL 04
 
-PRACTICAL 2 :
+Summary: The program calculates the factorial of a non-negative integer using an iterative loop and measures its execution time. It has O(n) time complexity and O(1) space complexity.
 
-Summary :
-
-In this practical, we implemented Linear Search and Binary Search algorithms and compared their execution time.
-
-Linear Search checks each element one by one until the element is found.(Best Case: O(1)Average Case: O(n)Worst Case: O(n))
-
-Binary Search searches by dividing the sorted array into two halves, so it is faster.(Best Case: O(1) Average Case: O(log n)Worst Case: O(log n))
-
-Linear Search works on both sorted and unsorted arrays. Binary Search works only on sorted arrays.
-
-Conclusion :
-
-Linear Search is simple and works on both sorted and unsorted arrays. Binary Search is faster but works only on sorted arrays. The time analysis shows that Binary Search takes less time than Linear Search. Therefore, Binary Search is better for large sorted data, while Linear Search is suitable for small or unsorted data.
+Conclusion: The program efficiently calculates factorial using iteration with O(n) time and O(1) space. It also measures the execution time of the calculation.
 
