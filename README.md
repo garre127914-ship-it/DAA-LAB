@@ -22,3 +22,13 @@ Summary: The program calculates the factorial of a non-negative integer using an
 
 Conclusion: The program efficiently calculates factorial using iteration with O(n) time and O(1) space. It also measures the execution time of the calculation.
 
+PRACTICAL 07
+
+SUMMARY: The Making Change Problem uses Dynamic Programming to find the minimum number of coins for a given amount. The Iterative Factorial program calculates factorial using a loop. Both programs are simple and efficient.
+
+Conclusion
+
+These programs improve understanding of basic algorithms and programming logic. They provide efficient solutions with less complexity.
+
+
+practical 
