@@ -31,6 +31,15 @@ It finds the maximum value by deciding whether to include or exclude each item.
 Conclusion
 The program efficiently determines the optimal selection of items without exceeding the given knapsack capacity
 
+PRACTICAL 6
+Summary
+
+The program uses Dynamic Programming to find the optimal order of multiplying a chain of matrices with the minimum scalar multiplications.
+
+Conclusion
+
+Matrix Chain Order efficiently finds the minimum multiplication cost using a DP table with O(n³) time and O(n²) space.
+
 PRACTICAL 07
 
 SUMMARY: The Making Change Problem uses Dynamic Programming to find the minimum number of coins for a given amount. The Iterative Factorial program calculates factorial using a loop. Both programs are simple and efficient.
