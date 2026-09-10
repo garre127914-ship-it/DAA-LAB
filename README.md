@@ -22,6 +22,15 @@ Summary: The program calculates the factorial of a non-negative integer using an
 
 Conclusion: The program efficiently calculates factorial using iteration with O(n) time and O(1) space. It also measures the execution time of the calculation.
 
+PRACTICAL 05
+
+Summary
+This program solves the 0/1 Knapsack Problem using Dynamic Programming.
+It finds the maximum value by deciding whether to include or exclude each item.
+
+Conclusion
+The program efficiently determines the optimal selection of items without exceeding the given knapsack capacity
+
 PRACTICAL 07
 
 SUMMARY: The Making Change Problem uses Dynamic Programming to find the minimum number of coins for a given amount. The Iterative Factorial program calculates factorial using a loop. Both programs are simple and efficient.
