@@ -48,5 +48,9 @@ Conclusion
 
 These programs improve understanding of basic algorithms and programming logic. They provide efficient solutions with less complexity.
 
+PRACTICAL 09
+Summary:
+The program implements Prim's Algorithm to find the Minimum Spanning Tree (MST) of a weighted graph. It uses an adjacency matrix to represent the graph and starts from the first vertex. At each step, it selects the minimum-weight edge that connects a selected vertex to an unselected vertex. The program continues until all vertices are connected.
 
-practical 
+Conclusion:
+The program successfully finds the Minimum Spanning Tree using a greedy approach. It connects all vertices with minimum edge weights and displays the selected edges and their weights.
