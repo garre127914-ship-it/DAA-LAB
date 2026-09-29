@@ -48,6 +48,19 @@ Conclusion
 
 These programs improve understanding of basic algorithms and programming logic. They provide efficient solutions with less complexity.
 
+practical 08
+Summary
+
+This program implements DFS and BFS graph traversal algorithms using Python.
+DFS uses a stack to explore nodes deeply, while BFS uses a queue to visit nodes level by level.
+The program takes a starting node from the user and displays both traversal orders.
+
+Conclusion
+
+The program successfully demonstrates the working of DFS and BFS algorithms.
+DFS is useful for exploring paths deeply, whereas BFS is useful for level-by-level traversal.
+Both algorithms are important techniques for searching and traversing graphs efficiently.
+
 PRACTICAL 09
 Summary:
 The program implements Prim's Algorithm to find the Minimum Spanning Tree (MST) of a weighted graph. It uses an adjacency matrix to represent the graph and starts from the first vertex. At each step, it selects the minimum-weight edge that connects a selected vertex to an unselected vertex. The program continues until all vertices are connected.
