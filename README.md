@@ -67,3 +67,11 @@ The program implements Prim's Algorithm to find the Minimum Spanning Tree (MST) 
 
 Conclusion:
 The program successfully finds the Minimum Spanning Tree using a greedy approach. It connects all vertices with minimum edge weights and displays the selected edges and their weights.
+
+PRACTICAL 10
+
+Summary:
+This program implements Kruskal’s Algorithm to find the Minimum Spanning Tree (MST) of a weighted graph. It sorts all edges according to their weights and uses the find() function to check the parent of each vertex. The algorithm selects the smallest edge that does not form a cycle and calculates the total cost of the selected edges.
+
+Conclusion:
+The program successfully finds the Minimum Spanning Tree using Kruskal’s greedy approach. It connects all vertices with the minimum possible total edge cost while avoiding cycles. For the given graph, the MST has a total cost of 6.
